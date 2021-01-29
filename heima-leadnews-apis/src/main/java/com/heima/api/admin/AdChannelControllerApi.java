@@ -34,7 +34,7 @@ public interface AdChannelControllerApi {
     public ResponseResult save(AdChannel channel);
 
     /**
-     * 根据ip修改频道
+     * 根据id修改频道
      * @param channel 频道对象
      * @return
      */

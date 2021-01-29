@@ -7,6 +7,7 @@ public enum AppHttpCodeEnum {
     // 登录段1~50
     NEED_LOGIN(1,"需要登录后操作"),
     LOGIN_PASSWORD_ERROR(2,"密码错误"),
+    LOGIN_FAIL(2,"登录失败"),
     // TOKEN50~100
     TOKEN_INVALID(50,"无效的TOKEN"),
     TOKEN_EXPIRE(51,"TOKEN已过期"),

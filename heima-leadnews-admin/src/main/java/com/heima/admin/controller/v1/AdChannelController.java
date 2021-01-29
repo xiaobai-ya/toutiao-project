@@ -50,7 +50,7 @@ public class AdChannelController implements AdChannelControllerApi {
     }
 
     /**
-     * PUT
+     * POST
      * 更新频道
      * @param channel 频道对象
      * @return
@@ -62,6 +62,7 @@ public class AdChannelController implements AdChannelControllerApi {
     }
 
     /**
+     * GET
      * 删除频道
      * @param id 频道id
      * @return
