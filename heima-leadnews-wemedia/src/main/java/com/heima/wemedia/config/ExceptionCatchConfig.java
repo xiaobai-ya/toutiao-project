@@ -1,4 +1,4 @@
-package com.heima.admin.config;
+package com.heima.wemedia.config;
 
 /**
  * @Author Administrator

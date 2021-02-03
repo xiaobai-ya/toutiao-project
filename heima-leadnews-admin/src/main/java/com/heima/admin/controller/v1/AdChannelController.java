@@ -8,6 +8,8 @@ import com.heima.model.common.dtos.ResponseResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 /**
  * @Author Administrator
  * @create 2021/1/26 20:32
@@ -71,5 +73,16 @@ public class AdChannelController implements AdChannelControllerApi {
     @Override
     public ResponseResult deleteById(@PathVariable("id") Integer id) {
         return adChannelService.deleteById(id);
+    }
+
+    /**
+     * 查询所有频道
+     * @return
+     */
+    @GetMapping("/channels")
+    @Override
+    public ResponseResult queryAll() {
+
+        return ResponseResult.okResult(adChannelService.list());
     }
 }

@@ -48,4 +48,11 @@ public interface AdChannelControllerApi {
      */
     @ApiOperation("根据id删除频道信息")
     public ResponseResult deleteById(Integer id);
+
+    /**
+     * 查询所有频道
+     * @return
+     */
+    @ApiOperation("查询所有频道")
+    public ResponseResult queryAll();
 }

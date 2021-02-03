@@ -3,6 +3,10 @@ package com.heima.utils.common;
 
 import java.util.*;
 
+/**
+ * 敏感词过滤算法
+ */
+
 public class SensitiveWordUtil {
 
     public static Map<String, Object> dictionaryMap = new HashMap<>();

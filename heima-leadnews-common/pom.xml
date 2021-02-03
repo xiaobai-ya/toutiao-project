@@ -108,6 +108,7 @@
             <artifactId>quartz</artifactId>
             <version>2.3.1</version>
         </dependency>
+        <!-- 阿里sdk  图片文字过滤等功能-->
         <dependency>
             <groupId>com.aliyun</groupId>
             <artifactId>aliyun-java-sdk-core</artifactId>
@@ -165,6 +166,13 @@
         <dependency>
             <groupId>com.github.xiaoymin</groupId>
             <artifactId>knife4j-spring-boot-starter</artifactId>
+        </dependency>
+
+
+        <!--fastdfs-->
+        <dependency>
+            <groupId>com.github.tobato</groupId>
+            <artifactId>fastdfs-client</artifactId>
         </dependency>
 
     </dependencies>

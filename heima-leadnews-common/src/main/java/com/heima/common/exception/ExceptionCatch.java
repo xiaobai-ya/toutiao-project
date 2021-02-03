@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 
 @Log4j2
-@ControllerAdvice  //对控制器做切面处理
+//@ControllerAdvice  //对控制器做切面处理   切面可能回影响seata的回滚操作
 public class ExceptionCatch {
 
 

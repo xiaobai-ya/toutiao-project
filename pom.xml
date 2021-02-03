@@ -14,6 +14,12 @@
         <module>heima-leadnews-apis</module>
         <module>heima-leadnews-model</module>
         <module>heima-leadnews-admin</module>
+        <module>heima-leadnews-admin-gateway</module>
+        <module>heima-leadnews-user</module>
+        <module>heima-leadnews-wemedia</module>
+        <module>heima-leadnews-article</module>
+        <module>heima-leadnews-seata</module>
+        <module>heima-leadnews-wemedia-gateway</module>
     </modules>
 
     <!-- 继承Spring boot工程 -->

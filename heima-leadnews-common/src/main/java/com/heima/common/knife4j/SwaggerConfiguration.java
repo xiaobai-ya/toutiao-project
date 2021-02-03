@@ -1,4 +1,4 @@
-package com.heima.admin;
+package com.heima.common.knife4j;
 
 import com.github.xiaoymin.knife4j.spring.annotations.EnableKnife4j;
 import org.springframework.context.annotation.Bean;

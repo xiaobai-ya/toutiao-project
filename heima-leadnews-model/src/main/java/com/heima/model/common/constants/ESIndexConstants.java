@@ -1,5 +1,9 @@
 package com.heima.model.common.constants;
 
+/**
+ * es常量暂未使用
+ */
+
 public class ESIndexConstants {
     public static final String DEFAULT_DOC ="_doc";
     public static final String ALL_INDEX ="app_info_*";
